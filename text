@@ -1,19 +1,1 @@
-first of all set set type module in package.json so 
-we can use import a from b
 
-to register first hash password then create user 
-nodemon app.js
-
-npx prisma init --data source-provider mongodb
-
-after update npx prisma db push
-
-git clone --single-branch -b branch-name url
-
-axios- request to api
-cors - to mak erequestfrom cliemt side something
-
-payload represents user id
-
-nodemon app.js
-npm run dev
