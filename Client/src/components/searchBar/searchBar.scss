@@ -67,8 +67,12 @@
         &:nth-child(3) {
           width: auto;
         }
-        padding: 20px;
-        border: 1px solid #999;
+       
+        & {
+          padding: 20px;
+          border: 1px solid #999;
+        }
+      
       }
     }
 
