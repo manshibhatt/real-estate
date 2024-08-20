@@ -17,3 +17,12 @@ payload represents user id
 
 nodemon app.js
 npm run dev
+
+ls
+git add Client
+git commit -m "Add Client directory to Git tracking"
+git rm --cached -r Client
+git commit -m "Remove Client directory from Git index"
+git push origin <branch-name>
+
+add client
