@@ -67,10 +67,11 @@ export const login = async (req, res) => {
 
     res
       .cookie("token", token, {
-        sameSite: 'None' ,
+        sameSite: 'none' ,
         httpOnly: true,
         secure:true,
         maxAge: age,
+        domain: 'real-estate-kwif.vercel.app'
       })
       .status(200)
       .json(userInfo);
