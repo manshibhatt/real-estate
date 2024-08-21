@@ -11,7 +11,7 @@ import NewPostPage from "./routes/newPostPage/newPostPage";
 import { listPageLoader, profilePageLoader, singlePageLoader } from "./lib/loaders";
 
 
-function App() {
+function App() { 
   const router = createBrowserRouter([ 
     {
       path: "/",
@@ -19,7 +19,8 @@ function App() {
       children: [
         {
           path: "/",
-          element: <HomePage />,
+          // element: <HomePage />,
+          element: <Login/>
         },
         {
           path: "/list",
