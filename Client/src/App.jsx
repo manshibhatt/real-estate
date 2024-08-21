@@ -19,8 +19,7 @@ function App() {
       children: [
         {
           path: "/",
-          // element: <HomePage />,
-          element: <Login/>
+          element: <HomePage />,
         },
         {
           path: "/list",
