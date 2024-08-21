@@ -13,7 +13,7 @@ import cookieParser from "cookie-parser";
 const app=express();
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin:'hhttps://real-estate-kwif.vercel.app', credentials:true})) //passing client side url
+app.use(cors({origin:'https://real-estate-kwif.vercel.app', credentials:true})) //passing client side url
 
 app.use("/api/users",userRoute)
 app.use("/api/posts",postRoute)  
