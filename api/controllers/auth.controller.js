@@ -68,7 +68,8 @@ export const login = async (req, res) => {
     res.cookie("token", token, {
         sameSite: 'none' ,
         httpOnly: true,
-        secure:true,
+        secure: true,
+        domain: 'real-estate-backend-s12g.onrender.com',
         maxAge: age,
       })
       .status(200)
